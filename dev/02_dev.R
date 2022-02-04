@@ -15,12 +15,31 @@
 
 ## Dependencies ----
 ## Add one line by package you want to add as dependency
-usethis::use_package( "thinkr" )
+usethis::use_package("readxl")
+usethis::use_package("dplyr")
+usethis::use_package("lubridate")
+usethis::use_package("openxlsx")
+usethis::use_package("glue")
+usethis::use_package("shinybusy")
+usethis::use_package("shinyhelper")
+usethis::use_package("plotly")
+usethis::use_package("aws.s3")
+usethis::use_package("yaml")
+usethis::use_package("shiny")
+usethis::use_package("shinipsum")
+usethis::use_package("shinythemes")
+usethis::use_package("shinyjs")
+usethis::use_package("shinyBS")
+usethis::use_package("reactlog")
+usethis::use_package("shinyWidgets")
+usethis::use_package("heatmaply")
+usethis::use_package("shinyauthr")
+usethis::use_package("shinyalert")
 
 ## Add modules ----
 ## Create a module infrastructure in R/
-golem::add_module( name = "name_of_module1" ) # Name of the module
-golem::add_module( name = "name_of_module2" ) # Name of the module
+golem::add_module( name = "DataTables" ) # Name of the module
+golem::add_module( name = "scatterplot" ) # Name of the module
 
 ## Add helper functions ----
 ## Creates fct_* and utils_*
